@@ -11,19 +11,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 4% 0 2%;
+    padding: 1% 0 2%; /*   было 4 0 2 */
   }
   input[name="dot"] {
     display: none;
   }
   .slider {
-    width: 70%;
+    width: 50%; /* было 70  */
     overflow: hidden;
   }
 
   .slides_img {
     display: flex;
-    width: 500%;
+    width: 500%;  /* было 500 */
     height: 100%;
   }  
   .img_container {
@@ -37,7 +37,7 @@
   }
   .img {
     width: 100%;
-    border-radius: 7px;
+    border-radius: 20px;
   }
   .title_wrapper {
     display: flex;
